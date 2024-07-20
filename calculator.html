@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata for the document -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR</title>
+    <!-- Linking external CSS files -->
     <link rel="stylesheet" href="calc.css">
     <link rel="stylesheet" href="button.css">
 </head>
 <body>
+    <!-- Page title -->
     <h1 class="text-center">Calculator</h1>
     <div class="border">
-  
-    <div class="container flex flex-col bg-red  mx-auto items-center">
+
+    <div class="container flex flex-col bg-red mx-auto items-center">
        
+        <!-- Display area for the calculator -->
         <div class="row">
             <input class="input" type="text" default="0">
         </div>
 
+        <!-- Row of buttons: Clear, Divide, Double Zero, Hundred -->
         <div class="row">
             <button class="button">C</button>
             <button class="button">/</button>
@@ -25,6 +30,7 @@
             <button class="button">100</button>
         </div>
 
+        <!-- Row of buttons: 7, 8, 9, Multiply -->
         <div class="row">
             <button class="button">7</button>
             <button class="button">8</button>
@@ -32,6 +38,7 @@
             <button class="button">*</button>
         </div>
 
+        <!-- Row of buttons: 4, 5, 6, Subtract -->
         <div class="row">
             <button class="button">4</button>
             <button class="button">5</button>
@@ -39,6 +46,7 @@
             <button class="button">-</button>
         </div>
 
+        <!-- Row of buttons: 1, 2, 3, Add -->
         <div class="row">
             <button class="button">1</button>
             <button class="button">2</button>
@@ -46,6 +54,7 @@
             <button class="button">+</button>
         </div>
 
+        <!-- Row of buttons: 0, Decimal, Percentage, Equals -->
         <div class="row">
             <button class="button">0</button>
             <button class="button">.</button>
@@ -54,7 +63,7 @@
         </div>
     </div>
 </div>
+    <!-- Linking the JavaScript file -->
     <script src="calc.js"></script>
 </body>
-
 </html>
