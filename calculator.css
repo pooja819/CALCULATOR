@@ -1,55 +1,62 @@
-.text-center{
+/* Center text within an element */
+.text-center {
     text-align: center;
 }
 
-.bg-red{
-    background-color:rgb(227, 227, 243);
+/* Set background color to a light grayish blue */
+.bg-red {
+    background-color: rgb(227, 227, 243);
 }
 
-.mx-auto{
+/* Center an element horizontally by setting automatic left and right margins */
+.mx-auto {
     margin: auto;
 }
 
-.flex{
+/* Enable flexbox layout for an element */
+.flex {
     display: flex;
-
 }
 
-.flex-col{
+/* Set flex direction to column, making children stack vertically */
+.flex-col {
     flex-direction: column;
 }
 
-.items-center{
+/* Center items along the cross axis in a flex container */
+.items-center {
     align-items: center;
 }
 
-.row input{
-    font-size: large;
-    margin: 10px;
-    padding: 12px 38px;
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: rgb(163, 163, 253);
+/* Style the input field in a row */
+.row input {
+    font-size: large; /* Increase font size */
+    margin: 10px; /* Add margin around the input */
+    padding: 12px 38px; /* Add padding inside the input */
+    border: 2px solid; /* Set a solid border */
+    border-radius: 10px; /* Round the corners */
+    border-color: rgb(163, 163, 253); /* Set border color to light blue */
 }
 
-.button{
-    padding: 20px;
-    margin:  3px;
-    border-radius: 50px;
-    border-color:  rgb(163, 163, 253);
+/* Style the calculator buttons */
+.button {
+    padding: 20px; /* Add padding inside the button */
+    margin: 3px; /* Add margin around the button */
+    border-radius: 50px; /* Round the button corners */
+    border-color: rgb(163, 163, 253); /* Set border color to light blue */
 }
 
-.row{
+/* Add margin around rows of buttons */
+.row {
     margin: 8px;
 }
 
-.border{
-    /* display:flex; */
-    border:2px solid rgb(64, 76, 201);
-    width:350px;
-    height:500px;
- 
-    justify-content:center;
-    margin: auto;
-    /* align-items:center; */
- }
+/* Style the calculator border */
+.border {
+    border: 2px solid rgb(64, 76, 201); /* Set border with dark blue color */
+    width: 350px; /* Set fixed width */
+    height: 500px; /* Set fixed height */
+    justify-content: center; /* Center content horizontally */
+    margin: auto; /* Center the border container horizontally */
+    /* align-items: center; Uncomment to center items vertically */
+}
